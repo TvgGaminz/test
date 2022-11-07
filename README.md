@@ -1,14 +1,3 @@
-# Editor.md
-
-
-
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
 #Задание А
 ```python
 a = input()

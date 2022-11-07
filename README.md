@@ -1,3 +1,5 @@
+# Домашнее Задание 1
+
 - [Задание А](#---------)
 - [Задание B](#--------b)
 - [Задание C](#--------c)
@@ -18,8 +20,6 @@
 - [Задание R](#--------r)
 - [Задание S](#--------s)
 - [Задание T](#--------t)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 # Задание А

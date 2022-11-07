@@ -1,9 +1,9 @@
-#Задание А
+# Задание А
 ```python
 a = input()
 print("Hello, ", a, "!", sep='')
 ```
-#Задание B
+# Задание B
 ```python
 import calendar
 a = (calendar.isleap(int(input())))
@@ -12,13 +12,13 @@ if a == True:
 else:
  print("NO")
 ```
-#Задание C
+# Задание C
 ```python
 a=int(input(""))
 k = ("Fizz"* (not a.__mod__(3)) + "Buzz" * (not a.__mod__(5)) + "Pozz" * (not a.__mod__(7)) or "Nedelizz")
 print(k)
 ```
-#Задание D
+# Задание D
 ```python
 a,b = map(int,(input(),input()))
 x = [int(input()) for f in range(a*b)]
@@ -30,13 +30,13 @@ for f in range(a):
         i+=1
     print()
 ```
-#Задание E
+# Задание E
 ```python
 k = int(input())
 x = [input() for i in range(k)]
 print(*(x[int(input())] for i in range(k)))
 ```
-#Задание F
+# Задание F
 ```python
 N = int(input())
 E = input().split()
@@ -48,12 +48,12 @@ for i in x:
             print(*i[N:])
         break
 ```
-#Задание G
+# Задание G
 ```python
 a = [int(input()) for i in range(int(input()))]
 print(max(a, key=a.count))
 ```
-#Задание H
+# Задание H
 ```python
 a = -1
 b = 0
@@ -63,7 +63,7 @@ while a != 0:
         b = max(a,b)
 print(b)
 ```
-#Задание I
+# Задание I
 ```python
 n,m=map(int,input().split())
 if 9*m<n or n<m:
@@ -79,7 +79,7 @@ else:
     a[i]+=n
     print(*a,sep='')
 ```
-#Задание J
+# Задание J
 ```python
 n = int(input())
 l = [[0] * n for i in range(n)]
@@ -90,7 +90,7 @@ for i in range(n):
 for i in range(n):
     print(*l[i])
 ```
-#Задание K
+# Задание K
 ```python
 N = int(input())
 x = list(map(int,input().split()))
@@ -104,7 +104,7 @@ for i in range(len(x)):
             y.append(x[i]+x[j])
 print(max(y))
 ```
-#Задание L
+# Задание L
 ```python
 x1,y1,x2,y2 = map(int,input().split())
 xA,yA = map(int,input().split())
@@ -124,13 +124,13 @@ else:
     yB = r((yA+2*(y0-yA)))
     print(xB,yB)
 ```
-#Задание M
+# Задание M
 ```python
 a,b,c = [set(map(int,input().split())) for i in range(3)]
 x = sorted(k for k in b if k in c if k not in a)
 print(*x)
 ```
-#Задание N
+# Задание N
 ```python
 n,m,k,x = (int(input()) for i in range(4))
 if m<n:
@@ -140,7 +140,7 @@ elif (m-k<=x and k<m):
 else:
     print('YES')
 ```
-#Задание O
+# Задание O
 ```python
 x = input()
 while '[]' in x or '{}' in x or '()' in x:
@@ -152,7 +152,7 @@ if x:
 else:
     print('YES')
 ```
-#Задание P
+# Задание P
 ```python
 x = list(map(int,input().split()))
 n = int(input())
@@ -169,7 +169,7 @@ def inside(x,n,i):
             inside(x[:len(x)//2], n, i)
 inside(x, n, 1)
 ```
-#Задание Q
+# Задание Q
 ```python
 #undefinedvoidnullNone0
 n,b = map(int,input().split())
@@ -191,7 +191,7 @@ for i in range(m):
             a[i][2]=1
 print(*('%s %s'%tuple(i[1:]) for i in a), sep='\n' )
 ```
-#Задание R
+# Задание R
 ```python
 #votpovezlo
 def z_func (s: str):
@@ -214,7 +214,7 @@ s = input()
 c = s + "#" +s[::-1]
 print(*z_func(c)[::-1][:len(s)])
 ```
-#Задание S
+# Задание S
 ```python
 n = int(input())
 x = list(map(int,input().split()))
@@ -225,7 +225,7 @@ for i in range(k):
     y[i]=max(x[a:b+1])
 print(*y)
 ```
-#Задание T
+# Задание T
 ```python
 x = input()
 y = 0
